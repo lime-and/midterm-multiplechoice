@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #46bbe6;
+}
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font: weight 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid#333;
+    padding-bottom: 30px;
+}  
+.quiz1{
+    margin-top: 20px 0;
+} 
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    margin-bottom: 20px;
+}
+.btn{
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover:not([disabled]){
+    background: #001e4d;
+    color: white;
+}
+.btn:disabled{
+    cursor: not-drop;
+}
+#next-btn{
+    background: #001e4d;
+    font-weight: 500;
+    color: white;
+    width: 150px;
+    border: 0;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: #93ff93;
+}
+.incorrect{
+    background: #ff9393;
+
+}
